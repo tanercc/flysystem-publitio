@@ -1,0 +1,32 @@
+{
+    "name": "publitio/flysystem-publitio",
+    "description": "Flysystem Adapter for publit.io",
+    "keywords": [
+        "tanercc",
+        "flysystem-publitio",
+        "flysystem",
+        "publitio",
+        "api"
+    ],
+    "homepage": "https://github.com/tanercc/flysystem-publitio",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Taner Çetin",
+            "email": "tanercc@gmail.com",
+            "homepage": "https://github.com/tanercc/flysystem-publitio",
+            "role": "Developer"
+        }
+    ],
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "Publitio\\FlysystemPublitio\\": "src"
+        }
+    },
+    "require": {
+        "php": ">7.2",
+        "league/flysystem": "^1.0",
+        "publitio/publitio": "0.1"
+    }
+}
